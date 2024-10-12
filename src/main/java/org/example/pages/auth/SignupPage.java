@@ -1,6 +1,7 @@
 package org.example.pages.auth;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 public class SignupPage {
@@ -35,6 +36,7 @@ public class SignupPage {
     }
 
     public void createAccount(){
+        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,document.body.scrollHeight)");
         driver.findElement(createAccountBtn).click();
     }
 

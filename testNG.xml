@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" parallel="classes" thread-count="4">
+    <test name="happy scenarios">
+        <classes>
+            <class name="org.example.e2e.fullScenarioTest">
+            </class>
+            <class name="org.example.testSignup"></class>
+        </classes>
+    </test>
+</suite>

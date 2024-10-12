@@ -31,6 +31,7 @@ public class testSignup extends testBase {
         signupPage.setFirstName("test");
         signupPage.setLastName("user");
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date());
+        System.out.println("user"+timeStamp+"@test.com");
         signupPage.setEmail("user"+timeStamp+"@test.com");
         signupPage.setPassword("P@$$W0rd");
         signupPage.createAccount();
