@@ -1,5 +1,6 @@
 package org.example.e2e;
 
+import com.opencsv.CSVReader;
 import org.example.pages.AccountPage;
 import org.example.pages.GearPage;
 import org.example.pages.HomePage;
@@ -70,6 +71,8 @@ public class fullScenarioTest extends testBase {
         //Assert.assertEquals(driver.getCurrentUrl(), "https://magento.softwaretestingboard.com/checkout/cart/");
 
     }
+
+
 
     @AfterClass
     public void checkoutTest(){
