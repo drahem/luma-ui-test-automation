@@ -1,2 +1,2 @@
 # luma-ui-test-automation
-test automation using selenium and jave for luma demo website 
+test automation using selenium and java for luma demo website 
